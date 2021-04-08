@@ -1,0 +1,114 @@
+div {padding: 20px;}
+
+#header{
+    border-bottom:1px solid #ddd;
+    height: 50%;
+}
+#footer{ 
+    margin: 0 0 0 0;
+    font-size: 70%;
+    height: 50%;
+}
+
+
+.logo-img{
+    display: block;
+    margin: 0 auto;}
+
+.center-span{
+    text-align: center;
+    margin: 0 auto;
+}
+
+fieldset{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px 25px;
+    margin: 20px 0px;
+}
+
+fieldset label{
+    font-size: 60%;}
+
+
+fieldset input{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    margin-bottom: 25px;
+    
+    }
+
+form input[type="submit"]{
+    width: 100%;
+    background-color: #f7c548;
+    border-color: #a88734 #9c7e31 #846a29;
+    font-size: 90%;
+}
+
+label{
+    float: left;
+    font-weight: bolder;
+    
+    }
+
+#Forgot{
+    float: right;
+}
+
+#help{padding: 0;
+    float: left;}
+
+a{
+    color: #0066c0;
+}
+
+div.dropdown-toggle::first-letter{
+    font-size: 200%;
+}
+
+#top-border{ 
+    text-align:center;
+    background-color: white;
+    border-top:1px solid #ddd;
+    border-radius: 0;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;}
+
+div h6{
+    display: block;
+    width:fit-content;
+    background-color: white;
+    margin-top: -32px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#no-border{ border:none;
+}
+
+a:hover{
+    color: indianred;
+}
+
+#submitbutton:hover{ background-color:#b08007 ;}
+
+#create:hover{ background-color: lavender;}
+
+#min-margin{
+    margin-top:-3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+div ul{ list-style: none;}
+
+#help:active{ transform: rotate(90);
+    
+}
+

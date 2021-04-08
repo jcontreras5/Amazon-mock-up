@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link rel="stylesheet" href="css\main.css">
+<title>Amazon log in</title>
+</head>
+<body>
+
+<!-- Header -->
+    <div class="container" id="header">
+    <!-- image logo placeholder  -->
+        <div class="row ">
+            <div class="col-4 offset-4">
+                <img class="logo-img" src="https://via.placeholder.com/103x31">
+            </div>
+        </div>
+    <!-- Beginning of Form -->
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <fieldset class="center-span">
+                    <h2>Sign in</h2>
+                    <form >
+                        <!-- Email Area -->
+                        <label for="email">Email (phone for mobile accounts)</label>
+                        <input  type="email" name="email" id="email" placeholder="Enter email">
+
+                        <!-- Password Area -->
+                        <label for="password">Password</label>
+                        <a href="#" id="Forgot">Forgot Password?</a>
+                        <input  type="password" name="password" id="password" placeholder="Enter password">
+                        <!-- Submit button -->
+                        <input  type="submit" value="Continue" id="submitbutton">
+                        <!-- Collapse link -->
+                        <div class=" row dropdown show" id="help">
+                            <a data-toggle="collapse" href="#dropdownMenuLink" role="button" aria-expanded="false" aria-controls="dropdownMenuLink" id="help">
+                                &#129170; Need Help?
+                            </a>
+                            <div class="collapse " id="dropdownMenuLink" aria-labelledby="dropdownMenuLink">
+                                <ul>
+                                    <li>
+                                        <a  href="#" class="list-item" >Forgot your password?</a>
+                                    </li>
+                                    <li>
+                                        <a  href="#" class="list-item">Other issues with Sign-In</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+    <!-- New to Amazon -->
+        <div class="row">
+            <div class="col-md-4 offset-md-4" >
+                <fieldset id="no-border" >
+                    <div id="top-border">
+                        <h6 >New to Amazon?</h6>
+                    </div>
+                    <input type="submit" value="Create your Amazon Account" id="create">
+                </fieldset>
+            </div>
+        </div>    
+    </div>
+
+<!-- Footer -->
+    <div class="container-fluid" id="footer">
+        <div class="row" id="min-margin" >
+            <div class="col-md-4 offset-4 d-flex justify-content-center justify-content-between">
+                <a href="#">Conditions of Use </a>
+                <a href="#">Privacy Notice </a>
+                <a href="#">Help  </a>
+            </div>
+        </div>
+        <div class="row" id="min-margin">
+            <div class="col-md-4 offset-4 d-flex justify-content-center">
+                <p>© 1996-2021, Coding Temple or its affiliates</p>
+            </div>
+        </div>
+            
+        
+
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
